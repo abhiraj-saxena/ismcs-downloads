@@ -1,0 +1,1087 @@
+<html ng-app="vrMultimediaExport" class="ng-scope" lang="en"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Atti Multimediali</title>
+
+    <!-- Bootstrap -->
+    <link href="css/materialize.min.css" rel="stylesheet">
+    <link href="icons/iconfont/material-icons.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    
+      <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="js/angular.min.js"></script>
+      <script src="app.js"></script>
+      <script src="js/jquery.js"></script>
+      
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-150679628-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150679628-1');
+</script>
+
+      
+    <script>
+    $(document).ready(function(){
+    $('.modal').modal();
+  });  
+    </script>
+    
+  </head>
+  
+<body>
+ <div class="container">
+  <div class="main-content center-align white-text">
+    <h3>Digital Lectures</h3>
+    <h4><b>27th annual meeting of International Society for Mechanical Circulatory Support</b></h4>
+    <hr class="hr-home">
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">GO!</a>
+  </div>
+ </div>
+
+
+ <div id="modal1" class="modal" tabindex="0">
+  <div class="modal-content ng-scope" ng-controller="ResearchController as indice">    
+
+      
+        <form class="col s12 ng-pristine ng-valid">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">search</i>
+              <input ng-click="clearFilter()" ng-model="query" id="icon_prefix" type="text" class="validate ng-pristine ng-untouched ng-valid ng-empty">
+              <label for="icon_prefix">Cerca...</label>
+            </div>
+        </form>
+      
+
+      <ul class="collection">
+          
+        <!-- ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/02_D._Sodhani/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/02_D._Sodhani/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/02_D._Sodhani/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/02_D._Sodhani/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Young Investigators Pre-Symposium</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> D. Sodhani</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> MCS in the Indian Scenario: Challenges &amp; its Future</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/03_A._Stephens/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/03_A._Stephens/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/03_A._Stephens/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/03_A._Stephens/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Young Investigators Pre-Symposium</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Stephens</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Sensor and sensor-less systems for physiological control of VADs: Where to next?</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/04_S._Boschi/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/04_S._Boschi/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/04_S._Boschi/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/04_S._Boschi/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Young Investigators Pre-Symposium</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Boschi</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> The YIN and YANG of LVAD optimization: when quality of life matches flow watts and waves</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/05_S._Bhavsar/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/05_S._Bhavsar/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/05_S._Bhavsar/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/05_S._Bhavsar/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Young Investigators Pre-Symposium</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Bhavsar</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Small patients, huge demand? Pediatric MCS programs</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/07_S._Schroeder/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/07_S._Schroeder/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/07_S._Schroeder/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/07_S._Schroeder/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Young Investigators Pre-Symposium</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Schroeder</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> “Tools” in the Tool Box: What MCS Clinicians Have (and Don’t Have) to be Successful in Today’s World</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/08_J._Shimamura/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/08_J._Shimamura/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/08_J._Shimamura/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_07.45-10.00/08_J._Shimamura/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Young Investigators Pre-Symposium</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J. Shimamura</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Evaluation of peripheral circulation and its pulsatility under circulatory assist with continuous-flow left ventricular assist device</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/03_A._Loforte/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/03_A._Loforte/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/03_A._Loforte/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/03_A._Loforte/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - ISMCS Opening Ceremony</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Loforte</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Opening Video</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/01_A._Loforte/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/01_A._Loforte/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/01_A._Loforte/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/01_A._Loforte/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - ISMCS Opening Ceremony</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Loforte</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Welcome by IS MCS 2019 Conference President</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/02_F._Moscato/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/02_F._Moscato/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/02_F._Moscato/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_10.00-10.30/02_F._Moscato/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - ISMCS Opening Ceremony</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> F. Moscato</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> ISMCS Presidential Address</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/01_S.L.C._Au/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/01_S.L.C._Au/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/01_S.L.C._Au/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/01_S.L.C._Au/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - H. REUL Session</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S.L.C. Au</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Thermal safety of a transcutaneous energy transfer system for ventricular assist devices</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/02_A._Nemeth/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/02_A._Nemeth/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/02_A._Nemeth/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/02_A._Nemeth/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - H. REUL Session</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Nemeth</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Aortic regurgitation in heart failure patients after Abiomed Impella-device implantation</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/03_C._Gross/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/03_C._Gross/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/03_C._Gross/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/03_C._Gross/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - H. REUL Session</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> C. Gross</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> LVAD speed increase at exercise: insights from a computational cardio-respiratory simulator</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/04_M._Schöps/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/04_M._Schöps/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/04_M._Schöps/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/04_M._Schöps/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - H. REUL Session</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Schöps</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Hemolysis evaluation of a rotary blood pump at low-flow conditions for ECMO/ECCO2R applications</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/05_S._Bieritz/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/05_S._Bieritz/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/05_S._Bieritz/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_10.30-11.30/05_S._Bieritz/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - H. REUL Session</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Bieritz</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Visualizing red blood cell exclusion in a spiral groove bearing gap using erythrocyte ghosts and particle image velocimetry</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/04_A._Loforte/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/04_A._Loforte/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/04_A._Loforte/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/04_A._Loforte/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Keynote Lecture I</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Loforte</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Opening Video</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/03_A._Loforte/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/03_A._Loforte/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/03_A._Loforte/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/03_A._Loforte/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Keynote Lecture I</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Loforte</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Introduction</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/01_R._Hetzer/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/01_R._Hetzer/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/01_R._Hetzer/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/01_R._Hetzer/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Keynote Lecture I</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> R. Hetzer</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Pioneering Mechanical Circulatory Support (Europe)</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/02_O.H._Frazier/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/02_O.H._Frazier/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/02_O.H._Frazier/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_11.30-12.30/02_O.H._Frazier/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Keynote Lecture I</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> O.H. Frazier</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Pioneering Mechanical Circulatory Support (USA)</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_12.30-13.00/01_S._Maltais/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_12.30-13.00/01_S._Maltais/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_12.30-13.00/01_S._Maltais/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_12.30-13.00/01_S._Maltais/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Round Table I - Why and how to develop a VAD program, get conscience, and improve the running by time</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Maltais</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Lecture</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_13.00-13.30/04_A._Loforte/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_13.00-13.30/04_A._Loforte/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_13.00-13.30/04_A._Loforte/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_13.00-13.30/04_A._Loforte/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - ISMCS Welcome by Authorities</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Loforte</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Welcome</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_13.00-13.30/03_C._Gibertoni/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_13.00-13.30/03_C._Gibertoni/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_13.00-13.30/03_C._Gibertoni/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="img/test.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - ISMCS Welcome by Authorities</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> C. Gibertoni</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> S.Orsola Hospital General Head</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_13.00-13.30/02_A._Rotolo/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_13.00-13.30/02_A._Rotolo/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_13.00-13.30/02_A._Rotolo/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="img/test.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - ISMCS Welcome by Authorities</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Rotolo</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Bologna University Dean</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/01_M._Slepian/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/01_M._Slepian/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/01_M._Slepian/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/01_M._Slepian/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Lunch MCS Symposium I</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Slepian</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Pulsatility: ‘Argument for’ and ‘Biologic Consequences Without’</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/02_H._Schima/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/02_H._Schima/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/02_H._Schima/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/02_H._Schima/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Lunch MCS Symposium I</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> H. Schima</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Haemodynamics of pulsatile and continuous flow pumps</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/03_W._Dembitsky/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/03_W._Dembitsky/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/03_W._Dembitsky/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_13.30-14.30/03_W._Dembitsky/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Lunch MCS Symposium I</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> W. Dembitsky</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> The return to the pulse with current centrifugal pumps: clinical implications</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_14.30-15.00/01_U._Steinseifer/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_14.30-15.00/01_U._Steinseifer/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_14.30-15.00/01_U._Steinseifer/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_14.30-15.00/01_U._Steinseifer/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Invited Lectures - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> U. Steinseifer</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> MCS development: from design to commercial availability</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_14.30-15.00/03_G._Gerosa/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_14.30-15.00/03_G._Gerosa/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_14.30-15.00/03_G._Gerosa/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="img/test.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Invited Lectures - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> G. Gerosa</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Pushing towards a ‘biological’ Total Artificial Heart concept</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/01_M._Diedrich/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/01_M._Diedrich/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/01_M._Diedrich/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/01_M._Diedrich/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 1 - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Diedrich</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> A total artificial heart as a physiological sensor</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/02_F._De_Gaetano/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/02_F._De_Gaetano/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/02_F._De_Gaetano/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/02_F._De_Gaetano/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 1 - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> F. De Gaetano</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Experimental validation of the fluid-structure interaction simulation of an implantable total artificial heart (CARMAT-TAH)</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/03_K._V._Singru/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/03_K._V._Singru/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/03_K._V._Singru/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/03_K._V._Singru/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 1 - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> K. V. Singru</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> A ventricular decompressing apparatus with percutaneous catheters &amp; paracorporeal pumping; using robotic materials to create intracorporeal &amp; extracorporeal loops enabling simultaneous ventricular assist &amp; ECMO</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/04_C._Torregroza/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/04_C._Torregroza/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/04_C._Torregroza/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/04_C._Torregroza/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 1 - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> C. Torregroza</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Reproducible model for chronic stable heart failure in ovine species</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/05_S._Sonntag/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/05_S._Sonntag/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/05_S._Sonntag/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="img/test.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 1 - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S.Sonntag</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Population based engineering to treat the maximum number of patients</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/06_M._Slepian/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/06_M._Slepian/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/06_M._Slepian/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/06_M._Slepian/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 1 - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Slepian</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Compact linear peristalsis: non-pneumatic peristaltic occlusion as a mechanism for blood propulsion</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/07_J._Karimov/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/07_J._Karimov/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/07_J._Karimov/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="img/test.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 1 - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J. Karimov</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Universal ventricular assist device for right and left circulatory support</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/08_A._Boone/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/08_A._Boone/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/08_A._Boone/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/08_A._Boone/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 1 - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Boone</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Evaluation of intraventricular flow dynamics with a short-term intraventricular balloon pump</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/09_S._Bozzi/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/09_S._Bozzi/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/09_S._Bozzi/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_15.00-16.30/09_S._Bozzi/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 1 - Device development</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Bozzi</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> A new point-of-care microfluidic device for the assessment of residual platelet reactivity in patients on antiplatelet therapy</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_16.50-17.20/01_D._Taylor/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_16.50-17.20/01_D._Taylor/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_16.50-17.20/01_D._Taylor/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_16.50-17.20/01_D._Taylor/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Keynote Lecture II</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> D. Taylor</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Heart Replacement Therapy: Mechanical, Biological or Regenerative?</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_17.20-18.00/01_B._Meyns/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_17.20-18.00/01_B._Meyns/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_17.20-18.00/01_B._Meyns/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_17.20-18.00/01_B._Meyns/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Invited Lectures - Partial Support</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> B. Meyns</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Surgical or percutaneous interventional treatment?</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_17.20-18.00/04_K.Dasse/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_17.20-18.00/04_K.Dasse/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_17.20-18.00/04_K.Dasse/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_17.20-18.00/04_K.Dasse/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Invited Lectures - Partial Support</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> K.Dasse</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Miniature LA Assist Devce (VADovations)</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/01_L._Scarpa/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/01_L._Scarpa/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/01_L._Scarpa/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/01_L._Scarpa/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 2 - Partial support and full VAD support</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> L. Scarpa</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Long term support by a partial support device</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/02_P._Masiello/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/02_P._Masiello/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/02_P._Masiello/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/02_P._Masiello/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 2 - Partial support and full VAD support</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> P. Masiello</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Impella supported cardiac surgery</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/03_P._Klein/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/03_P._Klein/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/03_P._Klein/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/03_P._Klein/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 2 - Partial support and full VAD support</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> P. Klein</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Revivent less invasive left ventricular enhancement (live): single center mid-term results</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/04_A._Montalto/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/04_A._Montalto/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/04_A._Montalto/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/04_A._Montalto/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 2 - Partial support and full VAD support</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Montalto</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Different profiles, in patients implanted with last generation centrifugal pump, identified according to a new hemodynamic index</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/05_G._Aber/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/05_G._Aber/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/05_G._Aber/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/05_G._Aber/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 2 - Partial support and full VAD support</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> G. Aber</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> First acute in vivo experience with EverHeart LVAD</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/06_S._Mariani/video.mp4" target="_blank" href="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/06_S._Mariani/video.mp4">
+        <img ng-src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/06_S._Mariani/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/21-10-2019/2019-10-21_-_18.00-19.00/06_S._Mariani/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 21-10-2019 - Selected Abstracts 2 - Partial support and full VAD support</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Mariani</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Minimally invasive implantation of left ventricular assist devices: a tool to increase survival in women</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/03_E._Rame/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/03_E._Rame/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/03_E._Rame/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="img/test.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited Lectures - Short-term MCS and ECLS</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> E. Rame</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Recovery from cardio-pulmonary shock with short-term circulatory support: driving the needle forward</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/04_D._Saeed/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/04_D._Saeed/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/04_D._Saeed/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/04_D._Saeed/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited Lectures - Short-term MCS and ECLS</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> D. Saeed</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Beyond ECLS - Transition to implantable long-term LVAD</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/05_S._Tsui/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/05_S._Tsui/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/05_S._Tsui/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/05_S._Tsui/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited Lectures - Short-term MCS and ECLS</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Tsui</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Donor hearts preservation and assessment with Organ Care System</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/06_L._Di_Marco/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/06_L._Di_Marco/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/06_L._Di_Marco/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_08.00-09.00/06_L._Di_Marco/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited Lectures - Short-term MCS and ECLS</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> L. Di Marco</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Extracorporeal Circulation Circuits in Surgery: look at History to get the Present</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/02_M._Attisani/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/02_M._Attisani/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/02_M._Attisani/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/02_M._Attisani/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected Abstracts 3</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Attisani</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Left ventricular unloading during peripheral extracorporeal membrane oxygenator support (ECMO): a bridge to life in profound cardiogenic shock</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/01_S._Sponga/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/01_S._Sponga/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/01_S._Sponga/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/01_S._Sponga/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected Abstracts 3</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Sponga</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Outcome of heart transplantation in short and long-term assistance device patients: cold storage vs ex-vivo normothermic perfusion</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/03_G._Bianchi/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/03_G._Bianchi/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/03_G._Bianchi/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/03_G._Bianchi/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected Abstracts 3</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> G. Bianchi</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Elective institution of ECLS for primary PCI is associated with improved outcomes. A single center experience</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/04_D._Sef/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/04_D._Sef/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/04_D._Sef/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/04_D._Sef/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected Abstracts 3</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> D. Sef</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Bridge to heart transplantation using the Levitronix CentriMag short-term ventricular assist device - A 10-years single-centre experience</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/05_Y._Joshi/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/05_Y._Joshi/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/05_Y._Joshi/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/05_Y._Joshi/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected Abstracts 3</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> Y. Joshi</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Experience with true percutaneous venopulmonary extracorporeal membrane oxygenation as right ventricular temporary support following left ventricular assist device insertion</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/06_D._Haxhiademi/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/06_D._Haxhiademi/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/06_D._Haxhiademi/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_09.00-10.00/06_D._Haxhiademi/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected Abstracts 3</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> D. Haxhiademi</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Platelet function tests in VA ECMO patients - Can we read between the lines?</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/01_M._Polastri/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/01_M._Polastri/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/01_M._Polastri/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/01_M._Polastri/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected Abstracts 4</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Polastri</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Rehabilitation-related outcomes in patients with LVADs: functional capacity, disability, and quality of life</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/02_M._Benedetto/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/02_M._Benedetto/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/02_M._Benedetto/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/02_M._Benedetto/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected Abstracts 4</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Benedetto</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Echocardiographic assessment of right ventricular failure in continuous flow LVAD patients: a systematic review and metaanalysis of observational studies</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/03_K._Umakumar/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/03_K._Umakumar/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/03_K._Umakumar/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_10.00-10.30/03_K._Umakumar/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected Abstracts 4</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> K. Umakumar</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Awake extracorporeal membrane oxygenation (ECMO) in patients with refractory cardiogenic shock</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/01_W._Dembitsky/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/01_W._Dembitsky/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/01_W._Dembitsky/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/01_W._Dembitsky/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited lectures</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> W. Dembitsky</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Concomitant Cardiac Surgery procedures in need during LVAD implantation</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/02_G._Dogan/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/02_G._Dogan/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/02_G._Dogan/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/02_G._Dogan/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited lectures</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> G. Dogan</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Minimally-invasive LVAD implantation: should we adopt it as standard?</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/04_E._Potapov/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/04_E._Potapov/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/04_E._Potapov/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_11.00-12.00/04_E._Potapov/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited lectures</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> E. Potapov</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Continuous-flow BVAD: feasible and reliable?</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_12.00-12.30/01_M._Slaughter/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_12.00-12.30/01_M._Slaughter/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_12.00-12.30/01_M._Slaughter/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="img/test.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Keynote lecture III</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Slaughter</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Heart Transplantation vs. Mechanical Circulatory Support: current perspectives</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_12.30-13.00/06_M._Ono/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_12.30-13.00/06_M._Ono/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_12.30-13.00/06_M._Ono/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_12.30-13.00/06_M._Ono/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Round table II</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Ono</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Lecture</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/02_E._Potapov/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/02_E._Potapov/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/02_E._Potapov/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/02_E._Potapov/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Lunch MCS Symposium II Medtronic</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> E. Potapov</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Tips and tricks for VAD placement and removal</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/03_P._Wearden/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/03_P._Wearden/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/03_P._Wearden/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/03_P._Wearden/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Lunch MCS Symposium II Medtronic</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> P. Wearden</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Adult LVAD systems reliability for pediatric population</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/04_F._Moscato/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/04_F._Moscato/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/04_F._Moscato/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/04_F._Moscato/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Lunch MCS Symposium II Medtronic</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> F. Moscato</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> LVAD concept as monitoring system</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/05_L._Klein/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/05_L._Klein/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/05_L._Klein/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_13.30-14.30/05_L._Klein/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Lunch MCS Symposium II Medtronic</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> L. Klein</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Telemonitoring and smart systems I</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_14.30-15.20/01_M._Slepian/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_14.30-15.20/01_M._Slepian/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_14.30-15.20/01_M._Slepian/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_14.30-15.20/01_M._Slepian/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited lectures - Hemocompatibility</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Slepian</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> It’s Hemocompatibility”, “Not Thrombosis and/or Bleeding</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_14.30-15.20/03_I._Netuka/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_14.30-15.20/03_I._Netuka/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_14.30-15.20/03_I._Netuka/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_14.30-15.20/03_I._Netuka/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited lectures - Hemocompatibility</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> I. Netuka</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Biocompatibility of current continuous and pulsatile pumps</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/01_I._Pinar/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/01_I._Pinar/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/01_I._Pinar/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/01_I._Pinar/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 5 - Hemocompatibility</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> I. Pinar</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Investigation of blood flow and thrombosis within oxygenators using x-ray particle image velocimetry</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/02_S._Hennessy-Strahs/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/02_S._Hennessy-Strahs/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/02_S._Hennessy-Strahs/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/02_S._Hennessy-Strahs/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 5 - Hemocompatibility</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Hennessy-Strahs</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Von Willebrand factor size and function predict the risk of LVAD-associated bleeding</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/03_A._Koliopoulou/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/03_A._Koliopoulou/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/03_A._Koliopoulou/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/03_A._Koliopoulou/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 5 - Hemocompatibility</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Koliopoulou</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Platelet transcriptome in advanced heart failure patients following mechanical unloading</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/04_M._Slepian/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/04_M._Slepian/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/04_M._Slepian/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/04_M._Slepian/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 5 - Hemocompatibility</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Slepian</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Standardizing MCS testing loop design: effect of constituent components on overall system thrombogenicity</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/06_F._Consolo/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/06_F._Consolo/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/06_F._Consolo/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/06_F._Consolo/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 5 - Hemocompatibility</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> F. Consolo</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Influence of different antithrombotic regimens on prothrombotic platelet function in patients on mechanical circulatory support with left ventricular assist device</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/07_M._Inoue/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/07_M._Inoue/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/07_M._Inoue/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_15.20-16.30/07_M._Inoue/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 5 - Hemocompatibility</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Inoue</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> The effect of shear rate and exposure time on the formation size of human platelet aggregations</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/01_J._Copeland/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/01_J._Copeland/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/01_J._Copeland/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/01_J._Copeland/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited lectures</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J. Copeland</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Total Artificial Heart: temporary bridge or definitive solution?</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/02_P._Leprince/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/02_P._Leprince/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/02_P._Leprince/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/02_P._Leprince/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited lectures</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> P. Leprince</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> New Total Artificial Heart Systems</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/03_K._Fukamachi/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/03_K._Fukamachi/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/03_K._Fukamachi/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_17.20-18.10/03_K._Fukamachi/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Invited lectures</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> K. Fukamachi</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> The ‘Cleveland’ TAH concept</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/01_V._Lodo/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/01_V._Lodo/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/01_V._Lodo/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/01_V._Lodo/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 6 - Long-term LVAD &amp; BiVAD</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> V. Lodo</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Minimally invasive off pump left ventricular assist device implantation in redo patients with extrapericardical approach</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/02_T._J._O’Malley/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/02_T._J._O’Malley/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/02_T._J._O’Malley/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/02_T._J._O’Malley/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 6 - Long-term LVAD &amp; BiVAD</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> T. J. O’Malley</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Right atrial vs right ventricular HeartWare HVAD placement in patients with left-sided HeartWare HVAD: a systematic review</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/03_A._Dell’Aquila/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/03_A._Dell’Aquila/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/03_A._Dell’Aquila/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/03_A._Dell’Aquila/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 6 - Long-term LVAD &amp; BiVAD</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Dell’Aquila</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Nine-year single-center experience with the HeartWare left ventricular assist device system</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/04_N._Solowjowa/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/04_N._Solowjowa/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/04_N._Solowjowa/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/04_N._Solowjowa/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 6 - Long-term LVAD &amp; BiVAD</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> N. Solowjowa</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Outflow graft twist occlusion in the HeartMate 3 left ventricular assist system in 7 cases: analysis of potential mechanisms using computed tomography</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/05_C._T._Wood/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/05_C._T._Wood/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/05_C._T._Wood/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/05_C._T._Wood/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 6 - Long-term LVAD &amp; BiVAD</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> C. T. Wood</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Continuous-flow left ventricular assist device outflow graft stenting: indications and outcomes</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/06_G._Dogan/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/06_G._Dogan/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/06_G._Dogan/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/06_G._Dogan/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 6 - Long-term LVAD &amp; BiVAD</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> G. Dogan</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Two year follow-up after left ventricular assist device exchange to HeartMate 3</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/07_G._Gliozzi/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/07_G._Gliozzi/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/07_G._Gliozzi/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/07_G._Gliozzi/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 6 - Long-term LVAD &amp; BiVAD</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> G. Gliozzi</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Concomitant cardiac procedures during implantation of long-term continous-flow LVADs: a EUROMACS analysis</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/08_J._Vierecke/video.mp4" target="_blank" href="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/08_J._Vierecke/video.mp4">
+        <img ng-src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/08_J._Vierecke/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/22-10-2019/2019-10-22_-_18.10-19.30/08_J._Vierecke/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 22-10-2019 - Selected abstracts 6 - Long-term LVAD &amp; BiVAD</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J. Vierecke</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Results of primary biventricular support: an analysis of data from the EUROMACS-registry</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_08.00-09.00/02_M._Schweiger/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_08.00-09.00/02_M._Schweiger/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_08.00-09.00/02_M._Schweiger/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_08.00-09.00/02_M._Schweiger/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Pediatrics</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Schweiger</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Total Artificial Heart therapy in pediatrics</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_08.00-09.00/05_A._Hasan/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_08.00-09.00/05_A._Hasan/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_08.00-09.00/05_A._Hasan/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_08.00-09.00/05_A._Hasan/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Pediatrics</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Hasan</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Heart Transplantation or MCS in congenital heart disease?</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/02_J._Abdullah/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/02_J._Abdullah/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/02_J._Abdullah/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/02_J._Abdullah/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 7 - Pediatrics</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J. Abdullah</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Outcomes of continuous-flow ventricular assist devices in children: a single-centre experience</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/03_M.T._Cascarano/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/03_M.T._Cascarano/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/03_M.T._Cascarano/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/03_M.T._Cascarano/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 7 - Pediatrics</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M.T. Cascarano</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Twenty years of paediatric venoarterial ECMO</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/04_J._Teruya/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/04_J._Teruya/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/04_J._Teruya/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/04_J._Teruya/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 7 - Pediatrics</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J. Teruya</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Age-based differences in Bivalirudin dose requirements for pediatric extracorporeal circulatory support devices</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/05_M._Denisov/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/05_M._Denisov/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/05_M._Denisov/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/05_M._Denisov/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 7 - Pediatrics</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Denisov</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Novel paediatric rotary blood pump sputnik</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/06_M._Osa/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/06_M._Osa/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/06_M._Osa/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_09.00-10.00/06_M._Osa/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 7 - Pediatrics</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Osa</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Hemolysis testing and acute animal experiment of next generation ultra-compact centrifugal pediatric VAD with full magnetic levitation</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_10.20-10.50/01_K._Dasse/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_10.20-10.50/01_K._Dasse/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_10.20-10.50/01_K._Dasse/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_10.20-10.50/01_K._Dasse/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Keynote lecture V</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> K. Dasse</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> History and innovations in pump developm ent for congenital heart disease</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/01_A._Redaelli/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/01_A._Redaelli/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/01_A._Redaelli/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/01_A._Redaelli/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Simulation</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Redaelli</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> CFD blood flow simulation: strengths and limtations</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/02_A._Aliseda/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/02_A._Aliseda/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/02_A._Aliseda/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/02_A._Aliseda/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Simulation</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Aliseda</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Impact of LVAD cannulation on blood flow and stagnation</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/03_M._Granegger/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/03_M._Granegger/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/03_M._Granegger/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_10.50-11.30/03_M._Granegger/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Simulation</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Granegger</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Challenging solutions in congenital heart disease</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/01_J._Shimamura/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/01_J._Shimamura/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/01_J._Shimamura/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/01_J._Shimamura/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 8 - Simulation</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J. Shimamura</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Asynchronous ventricular volume change during continuous-flow left ventricular assist device support</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/02_S._Liao/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/02_S._Liao/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/02_S._Liao/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/02_S._Liao/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 8 - Simulation</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Liao</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Implications of LVAD supported intraventricular flows</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/03_F._Consolo/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/03_F._Consolo/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/03_F._Consolo/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/03_F._Consolo/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 8 - Simulation</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> F. Consolo</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Numerical analysis of hemodynamic-related thrombogenic potential of the HeartMate 3 and HeartWare HVAD: mechanistic insights into observed clinical outcomes</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/04_K._Hugenroth/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/04_K._Hugenroth/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/04_K._Hugenroth/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/04_K._Hugenroth/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 8 - Simulation</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> K. Hugenroth</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Towards an implantable lung - Using multiscale simulations to evaluate possible connection options</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/06_T._Khienwad/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/06_T._Khienwad/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/06_T._Khienwad/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/06_T._Khienwad/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 8 - Simulation</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> T. Khienwad</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Investigation of pump speed modulation and its timing on the risk of ventricular thrombosis</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/07_M._Ghodrati/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/07_M._Ghodrati/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/07_M._Ghodrati/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_11.30-13.00/07_M._Ghodrati/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 8 - Simulation</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Ghodrati</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Investigation of the apical flow field under left ventricular assist device support</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/02_A._Hasan/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/02_A._Hasan/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/02_A._Hasan/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/02_A._Hasan/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Lunch MCS Symposium III Abbott</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. Hasan</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Technical solutions in congenital heart disease</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/03_W._Dembitsky/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/03_W._Dembitsky/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/03_W._Dembitsky/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/03_W._Dembitsky/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Lunch MCS Symposium III Abbott</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> W. Dembitsky</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> LVAD therapy for all?</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/04_S._Drakos/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/04_S._Drakos/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/04_S._Drakos/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/04_S._Drakos/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Lunch MCS Symposium III Abbott</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Drakos</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Myocardial Recovery: What Have We Learned and Future Directions</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/05_K._Bourque/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/05_K._Bourque/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/05_K._Bourque/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_13.00-14.00/05_K._Bourque/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Lunch MCS Symposium III Abbott</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> K. Bourque</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Telemonitoring and smart systems II</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/01_K._BOURQUE_Abbott/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/01_K._BOURQUE_Abbott/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/01_K._BOURQUE_Abbott/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/01_K._BOURQUE_Abbott/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Devices Update</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> K. BOURQUE Abbott</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Lecture</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/03_J.C._WOODARD_Berlin_Heart/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/03_J.C._WOODARD_Berlin_Heart/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/03_J.C._WOODARD_Berlin_Heart/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/03_J.C._WOODARD_Berlin_Heart/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Devices Update</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J.C. WOODARD Berlin Heart</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Lecture</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/04_T._PILLAY_Bioventrix/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/04_T._PILLAY_Bioventrix/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/04_T._PILLAY_Bioventrix/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/04_T._PILLAY_Bioventrix/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Devices Update</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> T. PILLAY Bioventrix</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Lecture</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/05_C._BOTTERBUSCH_Corwave/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/05_C._BOTTERBUSCH_Corwave/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/05_C._BOTTERBUSCH_Corwave/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/05_C._BOTTERBUSCH_Corwave/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Devices Update</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> C. BOTTERBUSCH Corwave</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Lecture</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/09_N._VOSKOBOYNIKOV_Medtronic/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/09_N._VOSKOBOYNIKOV_Medtronic/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/09_N._VOSKOBOYNIKOV_Medtronic/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/09_N._VOSKOBOYNIKOV_Medtronic/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Devices Update</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> N. VOSKOBOYNIKOV Medtronic</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Lecture</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/10_J._GOHEAN,_E._LARSON_Torvad/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/10_J._GOHEAN,_E._LARSON_Torvad/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/10_J._GOHEAN,_E._LARSON_Torvad/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/10_J._GOHEAN,_E._LARSON_Torvad/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Devices Update</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J. GOHEAN, E. LARSON Torvad</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Lecture</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/11_J._TEAL_CH_Biomedical/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/11_J._TEAL_CH_Biomedical/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/11_J._TEAL_CH_Biomedical/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_14.30-16.15/11_J._TEAL_CH_Biomedical/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Devices Update</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J. TEAL CH Biomedical</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Lecture</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/01_L._Fresiello/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/01_L._Fresiello/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/01_L._Fresiello/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/01_L._Fresiello/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> L. Fresiello</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Exercise limitations in LVAD patients: insights from hemodynamic simulations</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/02_S._Gregory/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/02_S._Gregory/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/02_S._Gregory/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/02_S._Gregory/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Gregory</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> In-vitro modelling for pump control evaluation: strengths and limitations</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/04_M._Slepian/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/04_M._Slepian/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/04_M._Slepian/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_16.35-17.25/04_M._Slepian/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Invited lectures - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Slepian</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> New Technologies and wearables for MCS</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/01_T._Motomura/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/01_T._Motomura/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/01_T._Motomura/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/01_T._Motomura/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 9 - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> T. Motomura</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Development of a percutaneous access device for preventing driveline infection</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/02_T._Yambe/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/02_T._Yambe/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/02_T._Yambe/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/02_T._Yambe/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 9 - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> T. Yambe</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Evaluation of the pulse wave from the face of the patients with rotary blood pump in the outpatient clinic</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/03_V._Ramos/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/03_V._Ramos/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/03_V._Ramos/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/03_V._Ramos/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 9 - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> V. Ramos</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Quantification of circadian loss in HVAD patients using controller log file data</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/04_N._Vasudevan/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/04_N._Vasudevan/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/04_N._Vasudevan/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/04_N._Vasudevan/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 9 - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> N. Vasudevan</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> HVAD log files: pump power signature</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/05_F._Consolo/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/05_F._Consolo/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/05_F._Consolo/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/05_F._Consolo/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 9 - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> F. Consolo</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Time-frequency analysis of the LVAD log files enhances early diagnosis of pump thrombosis</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/06_S._Boschi/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/06_S._Boschi/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/06_S._Boschi/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/06_S._Boschi/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 9 - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> S. Boschi</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Changes in waveforms during six minutes walking test in patients with H-VAD: a new marker of functional capacity</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/07_J._Gohean/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/07_J._Gohean/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/07_J._Gohean/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/07_J._Gohean/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 9 - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> J. Gohean</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Pressure estimation with the TORVAD using a model-based Kalman filter</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/08_M._Masetti/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/08_M._Masetti/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/08_M._Masetti/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="plenaria/23-10-2019/2019-10-23_-_17.25-18.55/08_M._Masetti/FotoRel/foto.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Selected abstracts 9 - Smart Pumping, Monitoring, Control</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> M. Masetti</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> The role of time in therapeutic range (TTR) of anticoagulation in reducing thrombosis’ risk in LVAD patients</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query --><li class="collection-item avatar hoverable ng-scope" ng-repeat="item in indice.items | filter:query">
+        <a ng-href="plenaria/23-10-2019/2019-10-23_-_19.00-19.15/02_A._El_Banayosy/video.mp4" target="_blank" href="plenaria/23-10-2019/2019-10-23_-_19.00-19.15/02_A._El_Banayosy/video.mp4">
+        <img ng-src="plenaria/23-10-2019/2019-10-23_-_19.00-19.15/02_A._El_Banayosy/FotoRel/foto.png" alt="" class="circle" onerror="this.onerror=null;this.src='img/test.png';" src="img/test.png">
+        <p class="giorno-sessione ng-binding"><i class="material-icons">alarm_on</i> 23-10-2019 - Closing ceremony</p>
+        <p class="relatore ng-binding"><i class="material-icons">face</i> A. El Banayosy</p>
+        <p class="relazione ng-binding"><i class="material-icons">speaker_notes</i> Closings</p>
+        <!-- <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a> -->
+      </a>
+    </li><!-- end ngRepeat: item in indice.items | filter:query -->
+  </ul>
+      
+      
+     
+      
+      
+      
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">CHIUDI</a>
+  </div>
+</div>
+
+<script src="js/materialize.min.js"></script>
+
+
+</body></html>
